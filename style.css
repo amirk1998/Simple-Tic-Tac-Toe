@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  border: 1px solid black;
+}
+
+#cell-1:hover,
+#cell-2:hover,
+#cell-3:hover,
+#cell-4:hover,
+#cell-5:hover,
+#cell-6:hover,
+#cell-7:hover,
+#cell-8:hover,
+#cell-9:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.x {
+  color: #ff0000;
+}
+
+.o {
+  color: #0000ff;
+}
+
+.win {
+  background-color: #00ff00;
+}
